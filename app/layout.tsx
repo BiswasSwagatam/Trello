@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Modal from "@/components/Modal";
 
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-gray-100">
         {children}
+        <Modal />
       </body>
     </html>
   );
